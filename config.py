@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "12380656"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7976479705:AAELabDvZJyV86BWls8EvbmkrfbggB6wf-0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -23,11 +23,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7552579717"))
+OWNER_ID = int(getenv("OWNER_ID", "1362133845"))
 
 OWNER_USERNAME = getenv("OWNER_USERNAME","AloneHuVai")
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AppleMusicc_Bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
